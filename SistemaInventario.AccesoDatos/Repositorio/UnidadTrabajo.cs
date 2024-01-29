@@ -12,10 +12,13 @@ namespace SistemaInventario.AccesoDatos.Repositorio
     {
         private readonly ApplicationDbContext _context;
         public IBodegaRepositorio Bodega { get; private set; }
+        public ICategoriaRepositorio Categoria { get; private set; }
         public UnidadTrabajo(ApplicationDbContext db)
         {
             _context = db;
             Bodega = new BodegaRepositorio(_context);
+            Categoria = new CategoriaRepositorio(_context);
+
         }
 
         public void Dispose()

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "K9KnfljWx4VBXF8HtdtUDdnHleE3/AQXwVa/f+eEhCA=",
+  "Hash": "558iirdEOT41uAdp24u+Y46YR6NItbJEtr7KqzdHxuA=",
   "Source": "SistemaInventario",
   "BasePath": "_content/SistemaInventario",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\bodega.js"
+    },
+    {
+      "Identity": "C:\\Programacion\\Udemy\\ASP\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\Categoria.js",
+      "SourceId": "SistemaInventario",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Programacion\\Udemy\\ASP\\SistemaInventario\\SistemaInventario\\wwwroot\\",
+      "BasePath": "_content/SistemaInventario",
+      "RelativePath": "js/Categoria.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Categoria.js"
     },
     {
       "Identity": "C:\\Programacion\\Udemy\\ASP\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\site.js",
