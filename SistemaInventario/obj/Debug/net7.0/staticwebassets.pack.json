@@ -9,16 +9,12 @@
       "PackagePath": "staticwebassets\\Imagenes\\Productos\\10e35ac1-9356-4284-87d0-0654b31effbf.png"
     },
     {
-      "Id": "C:\\Programacion\\Udemy\\ASP\\SistemaInventario\\SistemaInventario\\wwwroot\\Imagenes\\Productos\\1d4c83ba-c270-4688-9f22-24da2f236000.png",
-      "PackagePath": "staticwebassets\\Imagenes\\Productos\\1d4c83ba-c270-4688-9f22-24da2f236000.png"
-    },
-    {
       "Id": "C:\\Programacion\\Udemy\\ASP\\SistemaInventario\\SistemaInventario\\wwwroot\\Imagenes\\Productos\\33b07dd1-fc5c-4b07-8f03-643a8519244f.png",
       "PackagePath": "staticwebassets\\Imagenes\\Productos\\33b07dd1-fc5c-4b07-8f03-643a8519244f.png"
     },
     {
-      "Id": "C:\\Programacion\\Udemy\\ASP\\SistemaInventario\\SistemaInventario\\wwwroot\\Imagenes\\Productos\\3e77ca18-d672-4006-a945-f40e22b7e20c.png",
-      "PackagePath": "staticwebassets\\Imagenes\\Productos\\3e77ca18-d672-4006-a945-f40e22b7e20c.png"
+      "Id": "C:\\Programacion\\Udemy\\ASP\\SistemaInventario\\SistemaInventario\\wwwroot\\Imagenes\\Productos\\44dac45d-fd79-4654-8e0e-d5dbe387fa3f.png",
+      "PackagePath": "staticwebassets\\Imagenes\\Productos\\44dac45d-fd79-4654-8e0e-d5dbe387fa3f.png"
     },
     {
       "Id": "C:\\Programacion\\Udemy\\ASP\\SistemaInventario\\SistemaInventario\\wwwroot\\Imagenes\\Productos\\624b41ed-d493-43b2-a45f-b6c8501e4639.png",
@@ -29,8 +25,8 @@
       "PackagePath": "staticwebassets\\Imagenes\\Productos\\82e70eab-c4e1-4ebd-8162-3dc4e664ce89.png"
     },
     {
-      "Id": "C:\\Programacion\\Udemy\\ASP\\SistemaInventario\\SistemaInventario\\wwwroot\\Imagenes\\Productos\\854f1119-a90a-4b64-bc54-d20406a5d5ab.png",
-      "PackagePath": "staticwebassets\\Imagenes\\Productos\\854f1119-a90a-4b64-bc54-d20406a5d5ab.png"
+      "Id": "C:\\Programacion\\Udemy\\ASP\\SistemaInventario\\SistemaInventario\\wwwroot\\Imagenes\\Productos\\866a2526-56a7-46fb-8b8f-5fa319e8e03f.png",
+      "PackagePath": "staticwebassets\\Imagenes\\Productos\\866a2526-56a7-46fb-8b8f-5fa319e8e03f.png"
     },
     {
       "Id": "C:\\Programacion\\Udemy\\ASP\\SistemaInventario\\SistemaInventario\\wwwroot\\Imagenes\\Productos\\ba26e1ba-01ec-4b9b-b1d8-3c2bd83f17e9.png",
@@ -45,16 +41,20 @@
       "PackagePath": "staticwebassets\\Imagenes\\Productos\\dd0bfd6d-5ba2-4254-be60-c65d6c5566e6.png"
     },
     {
-      "Id": "C:\\Programacion\\Udemy\\ASP\\SistemaInventario\\SistemaInventario\\wwwroot\\Imagenes\\Productos\\ee17c2b0-c444-42d8-a3c8-7679f7dded37.png",
-      "PackagePath": "staticwebassets\\Imagenes\\Productos\\ee17c2b0-c444-42d8-a3c8-7679f7dded37.png"
-    },
-    {
       "Id": "C:\\Programacion\\Udemy\\ASP\\SistemaInventario\\SistemaInventario\\wwwroot\\Imagenes\\Productos\\fae5e17c-2fe0-4df7-a486-7002fd32e93c.png",
       "PackagePath": "staticwebassets\\Imagenes\\Productos\\fae5e17c-2fe0-4df7-a486-7002fd32e93c.png"
     },
     {
       "Id": "C:\\Programacion\\Udemy\\ASP\\SistemaInventario\\SistemaInventario\\wwwroot\\Imagenes\\Productos\\ffac7b98-7123-41cd-b028-c291c457d763.png",
       "PackagePath": "staticwebassets\\Imagenes\\Productos\\ffac7b98-7123-41cd-b028-c291c457d763.png"
+    },
+    {
+      "Id": "C:\\Programacion\\Udemy\\ASP\\SistemaInventario\\SistemaInventario\\wwwroot\\Imagenes\\icono.ico",
+      "PackagePath": "staticwebassets\\Imagenes\\icono.ico"
+    },
+    {
+      "Id": "C:\\Programacion\\Udemy\\ASP\\SistemaInventario\\SistemaInventario\\wwwroot\\Imagenes\\icono.png",
+      "PackagePath": "staticwebassets\\Imagenes\\icono.png"
     },
     {
       "Id": "C:\\Programacion\\Udemy\\ASP\\SistemaInventario\\SistemaInventario\\wwwroot\\css\\site.css",
