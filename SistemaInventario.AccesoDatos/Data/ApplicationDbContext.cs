@@ -17,6 +17,7 @@ namespace SistemaInventario.AccesoDatos.Data
         public DbSet<Categoria> Categorias { get; set; }
         public DbSet<Marca> Marcas { get; set; }
         public DbSet<Producto> Productos { get; set; }
+        public DbSet<UsuarioAplicacion> UsuarioAplicacion { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
