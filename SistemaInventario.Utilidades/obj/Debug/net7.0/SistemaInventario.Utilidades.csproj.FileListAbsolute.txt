@@ -10,3 +10,4 @@ C:\Programacion\Udemy\ASP\SistemaInventario\SistemaInventario.Utilidades\obj\Deb
 C:\Programacion\Udemy\ASP\SistemaInventario\SistemaInventario.Utilidades\obj\Debug\net7.0\refint\SistemaInventario.Utilidades.dll
 C:\Programacion\Udemy\ASP\SistemaInventario\SistemaInventario.Utilidades\obj\Debug\net7.0\SistemaInventario.Utilidades.pdb
 C:\Programacion\Udemy\ASP\SistemaInventario\SistemaInventario.Utilidades\obj\Debug\net7.0\ref\SistemaInventario.Utilidades.dll
+C:\Programacion\Udemy\ASP\SistemaInventario\SistemaInventario.Utilidades\obj\Debug\net7.0\SistemaInventario.Utilidades.csproj.AssemblyReference.cache
