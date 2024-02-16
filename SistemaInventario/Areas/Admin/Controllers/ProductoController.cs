@@ -10,10 +10,12 @@ using SistemaInventario.Utilidades;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 using System.IO;
 using Microsoft.EntityFrameworkCore.Migrations.Operations;
+using Microsoft.AspNetCore.Authorization;
 
 namespace SistemaInventario.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = Ds.Role_Admin + "," + Ds.Role_Inventario)]
     public class ProductoController : Controller
     {
         private readonly IUnidadTrabajo _unidadTrabajo;
