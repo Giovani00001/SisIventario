@@ -11,31 +11,25 @@ using System.Threading.Tasks;
 
 namespace SistemaInventario.AccesoDatos.Configuracion
 {
-    internal class ProductoConfiguracion : IEntityTypeConfiguration<Producto>
+    internal class BodegaProductoConfiguracion : IEntityTypeConfiguration<BodegaProducto>
     {
-        public void Configure(EntityTypeBuilder<Producto> builder)
+        public void Configure(EntityTypeBuilder<BodegaProducto> builder)
         {
             builder.Property(x => x.Id).IsRequired();
-            builder.Property(x => x.NumSerie).IsRequired().HasMaxLength(60);
-            builder.Property(x => x.Descripcion).IsRequired().HasMaxLength(60);
-            builder.Property(x => x.Estado).IsRequired();
-            builder.Property(x => x.Precio).IsRequired();
-            builder.Property(x => x.Costo).IsRequired();
-            builder.Property(x => x.CategoriaId).IsRequired();
-            builder.Property(x => x.MarcaId).IsRequired();
-            builder.Property(x => x.ImagenUrl).IsRequired(false);
-            builder.Property(x => x.PadreId).IsRequired(false);
+            builder.Property(x => x.BodegaId).IsRequired() ;
+            builder.Property(x => x.ProductoId).IsRequired() ;
+            builder.Property(x => x.Cantidad).IsRequired() ;
+
 
             /*relaciones*/
 
-            builder.HasOne(x => x.Categoria).WithMany()
-                .HasForeignKey(x => x.CategoriaId).OnDelete(DeleteBehavior.NoAction);
-            builder.HasOne(x => x.Marca).WithMany()
-                .HasForeignKey(x => x.MarcaId).OnDelete(DeleteBehavior.NoAction);
+            builder.HasOne(x => x.Bodega).WithMany()
+                .HasForeignKey(x => x.BodegaId)
+                .OnDelete(DeleteBehavior.NoAction);
 
-
-            builder.HasOne(x => x.Padre).WithMany()
-                .HasForeignKey(x => x.PadreId).OnDelete(DeleteBehavior.NoAction);
+            builder.HasOne(x => x.Producto).WithMany()
+                .HasForeignKey(x => x.ProductoId)
+                .OnDelete(DeleteBehavior.NoAction);
 
 
         }
