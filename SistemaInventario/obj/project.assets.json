@@ -2913,6 +2913,18 @@
           "lib/netstandard2.0/NuGet.Versioning.dll": {}
         }
       },
+      "Rotativa.AspNetCore/1.3.2": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Rotativa.AspNetCore.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Rotativa.AspNetCore.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
         "type": "package",
         "runtimeTargets": {
@@ -8819,6 +8831,23 @@
         "nuget.versioning.nuspec"
       ]
     },
+    "Rotativa.AspNetCore/1.3.2": {
+      "sha512": "bzhSTu7OB9mDpoV+9YP61ABnQl50nXoUOjbkgMmmNnypb5fvuY7S75ANz/fObdA3Z6wBGSKUNzfGQH0zhIRGqg==",
+      "type": "package",
+      "path": "rotativa.aspnetcore/1.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net5.0/Rotativa.AspNetCore.dll",
+        "lib/net6.0/Rotativa.AspNetCore.dll",
+        "lib/net7.0/Rotativa.AspNetCore.dll",
+        "lib/netcoreapp3.1/Rotativa.AspNetCore.dll",
+        "lib/netstandard2.0/Rotativa.AspNetCore.dll",
+        "rotativa.aspnetcore.1.3.2.nupkg.sha512",
+        "rotativa.aspnetcore.nuspec"
+      ]
+    },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "sha512": "HdSSp5MnJSsg08KMfZThpuLPJpPwE5hBXvHwoKWosyHHfe8Mh5WKT0ylEOf6yNzX6Ngjxe4Whkafh5q7Ymac4Q==",
       "type": "package",
@@ -13233,6 +13262,7 @@
       "Microsoft.EntityFrameworkCore.Sqlite >= 7.0.15",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.15",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 7.0.12",
+      "Rotativa.AspNetCore >= 1.3.2",
       "SistemaInventario.AccesoDatos >= 1.0.0",
       "SistemaInventario.Modelos >= 1.0.0",
       "SistemaInventario.Utilidades >= 1.0.0"
@@ -13322,6 +13352,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[7.0.12, )"
+          },
+          "Rotativa.AspNetCore": {
+            "target": "Package",
+            "version": "[1.3.2, )"
           }
         },
         "imports": [
