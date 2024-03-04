@@ -2,13 +2,15 @@
 @using SistemaInventario.Utilidades
 @{
     ViewData["Title"] = "Productos";
+    
+    
 }
 
 <header class="header">
     <div class="container pt-sm-5">
         <div class="heading-primary">
             Los mejores productos & <br />
-            marcas de la tineda
+            marcas de la tineda  
         </div>
     </div>
 </header>
@@ -38,7 +40,7 @@
                             <h5 class="card-title">@producto.Descripcion</h5>
                             <p class="card-text">$ @string.Format("{0:#,###0.00}", producto.Precio)</p>
                             <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 bg-white">
-                                <a class="btn btn-outline-primary">
+                                <a asp-action="Detalle" asp-route-id="@producto.Id" class="btn btn-outline-primary">
                                     <i class="bi bi-tags"></i> Detalle
                                 </a>
                             </div>

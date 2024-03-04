@@ -14,5 +14,6 @@ namespace SistemaInventario.Utilidades
         public const string Role_Admin = "Admin";
         public const string Role_Cliente = "Cliente";
         public const string Role_Inventario = "Inventario";
+        public const string ssCarroCompras = "sesion carro compras";/// @Context.Session.GetInt32(Ds.ssCarroCompras);
     }
 }

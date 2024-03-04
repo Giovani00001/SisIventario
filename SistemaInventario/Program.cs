@@ -13,6 +13,7 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+
 ////AddDefaultIdentity no permite trabajar con roles
 
 builder.Services.AddIdentity<IdentityUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = false)
@@ -42,6 +43,12 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<IUnidadTrabajo, UnidadTrabajo>();
 builder.Services.AddRazorPages();
 builder.Services.AddSingleton<IEmailSender, EmailSender>();
+builder.Services.AddSession(op =>
+{
+    op.IdleTimeout = TimeSpan.FromMinutes(30);
+    op.Cookie.HttpOnly = true;
+    op.Cookie.IsEssential = true;
+});
 
 var app = builder.Build();
 
@@ -61,6 +68,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+app.UseSession();
 
 app.UseAuthentication();
 
