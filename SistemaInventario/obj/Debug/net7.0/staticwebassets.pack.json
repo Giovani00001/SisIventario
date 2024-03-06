@@ -49,6 +49,10 @@
       "PackagePath": "staticwebassets\\Imagenes\\Productos\\ffac7b98-7123-41cd-b028-c291c457d763.png"
     },
     {
+      "Id": "C:\\Programacion\\Udemy\\ASP\\SistemaInventario\\SistemaInventario\\wwwroot\\Imagenes\\confirmacion.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\confirmacion.jpg"
+    },
+    {
       "Id": "C:\\Programacion\\Udemy\\ASP\\SistemaInventario\\SistemaInventario\\wwwroot\\Imagenes\\icono.ico",
       "PackagePath": "staticwebassets\\Imagenes\\icono.ico"
     },

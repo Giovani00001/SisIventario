@@ -28,7 +28,10 @@ namespace SistemaInventario.Modelos
         public string EstadoPago { get; set; }
         public DateTime FechaPago { get; set; }
         public DateTime FechaMaximaPago { get; set; }
+        //stripe
         public string TransaccionId { get; set; }
+        public string SessionId { get; set; }
+
         public string Telefono { get; set; }
         public string Direccion { get; set; }
         public string Ciudad { get; set; }

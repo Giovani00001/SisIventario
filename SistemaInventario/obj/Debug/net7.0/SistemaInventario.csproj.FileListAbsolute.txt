@@ -302,3 +302,4 @@ C:\Programacion\Udemy\ASP\SistemaInventario\SistemaInventario\obj\Debug\net7.0\r
 C:\Programacion\Udemy\ASP\SistemaInventario\SistemaInventario\obj\Debug\net7.0\SistemaInventario.pdb
 C:\Programacion\Udemy\ASP\SistemaInventario\SistemaInventario\obj\Debug\net7.0\SistemaInventario.genruntimeconfig.cache
 C:\Programacion\Udemy\ASP\SistemaInventario\SistemaInventario\obj\Debug\net7.0\ref\SistemaInventario.dll
+C:\Programacion\Udemy\ASP\SistemaInventario\SistemaInventario\bin\Debug\net7.0\Stripe.net.dll
