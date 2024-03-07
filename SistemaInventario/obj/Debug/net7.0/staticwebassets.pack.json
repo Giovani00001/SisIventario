@@ -81,6 +81,10 @@
       "PackagePath": "staticwebassets\\js\\Marca.js"
     },
     {
+      "Id": "C:\\Programacion\\Udemy\\ASP\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\Orden.js",
+      "PackagePath": "staticwebassets\\js\\Orden.js"
+    },
+    {
       "Id": "C:\\Programacion\\Udemy\\ASP\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\Producto.js",
       "PackagePath": "staticwebassets\\js\\Producto.js"
     },

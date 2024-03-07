@@ -13,7 +13,7 @@ namespace SistemaInventario.AccesoDatos.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("20240303034318_Orden")]
-    partial class Orden
+    partial class Ordenes
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

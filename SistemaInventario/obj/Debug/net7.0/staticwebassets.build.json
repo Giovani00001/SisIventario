@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IAPIvmGN15ZWyioEpkxf1oueVwQ9nzC6xGIw2lDu/DU=",
+  "Hash": "jkR9drqEQd3e/Ffv97mDDdTGLpwyjeCnoQjKlUoms4k=",
   "Source": "SistemaInventario",
   "BasePath": "_content/SistemaInventario",
   "Mode": "Default",
@@ -433,6 +433,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Marca.js"
+    },
+    {
+      "Identity": "C:\\Programacion\\Udemy\\ASP\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\Orden.js",
+      "SourceId": "SistemaInventario",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Programacion\\Udemy\\ASP\\SistemaInventario\\SistemaInventario\\wwwroot\\",
+      "BasePath": "_content/SistemaInventario",
+      "RelativePath": "js/Orden.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Orden.js"
     },
     {
       "Identity": "C:\\Programacion\\Udemy\\ASP\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\Producto.js",

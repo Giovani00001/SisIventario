@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace SistemaInventario.AccesoDatos.Migrations
 {
     /// <inheritdoc />
-    public partial class Orden : Migration
+    public partial class Ordenes : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
